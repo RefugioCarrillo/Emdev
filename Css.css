@@ -1,0 +1,41 @@
+/*uso de buenas practicas*/
+* {
+    /* margin para q no haya espacios*/
+    margin: 0px;
+    /*padding para q se separe de los bordes*/
+    padding: 0px;
+    /*para q no haya subrrayados ni nada*/
+    text-decoration: none;
+    /*le pongo una fuente*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+
+  
+
+#header {
+    /*ancho*/
+    width: 100%;
+    /*alto*/
+    height: 100px;
+    background-color: aquamarine;
+      /*centro el texto*/
+  text-align: center;
+   /*para q se centrar verticalmente*/
+   line-height: 90px;
+  }
+
+  
+footer {
+    /*anchura*/
+    width: 100%;
+    /*altura*/
+    height: 55px;
+    /*para q se centrar verticalmente*/
+    line-height: 55px;
+    background-color: aquamarine;
+    /*texto en el centro*/
+    text-align: center;
+    color: #444;
+    border-top: 1px solid #ccc;
+  }
